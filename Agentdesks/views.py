@@ -4,7 +4,7 @@ from __future__ import unicode_literals
 from django.shortcuts import render
 from django.views.generic import View
 from .models import User, Search, Property
-
+from .utils import *
 # Create your views here.
 
 # API class when user has entered the search
